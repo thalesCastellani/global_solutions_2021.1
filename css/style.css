@@ -4,6 +4,21 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: clamp(0.65em, 0.95em, 1.25em);
+}
+
+.menu {
+    position: absolute;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    text-decoration: none;
 }
