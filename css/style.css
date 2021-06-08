@@ -20,36 +20,78 @@ body {
 
 .menu ul {
     display: flex;
+    align-items: center;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 0%;
 }
 
 .menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: red;
     text-decoration: none;
 }
 
 #menu-wrapper {
-    height: 10%;
+    font-weight: bold;
+    height: 5%;
     width: 100%;
     position: absolute;
 }
 
-@media (min-width: 798px){
+.rodape {
+    background-color: #0B0B0B;
+}
+
+.cabecalho-wrapper {
+    padding-bottom: 5%;
+}
+
+.card {
+    padding: 5% 0;
+}
+
+.rodape .rodape-wrapper {
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-rodape img {
+    height: 5em;
+    width: auto;
+}
+
+.small {
+    color: aliceblue;
+    display: grid;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+@media (min-width: 798px) {
     html {
         font-size: 0.8rem;
     }
 }
-  
+
 @media (min-width: 992px) {
     html {
-      font-size: 1rem;
+        font-size: 1rem;
     }
 }
-  
+
 @media (min-width: 1200px) {
     html {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 }
