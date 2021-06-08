@@ -5,11 +5,17 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(0.65em, 0.95em, 1.25em);
+    font-size: 0.6rem;
 }
 
 .menu {
-    position: absolute;
+    height: 100%;
+}
+
+.menu:hover {
+    background-color: #0B0B0B;
+    opacity: 0.9;
+    transition: 0.5s;
 }
 
 .menu ul {
@@ -17,8 +23,33 @@ body {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
+    margin-bottom: 0%;
 }
 
 .menu ul li a {
     text-decoration: none;
+}
+
+#menu-wrapper {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width: 798px){
+    html {
+        font-size: 0.8rem;
+    }
+}
+  
+@media (min-width: 992px) {
+    html {
+      font-size: 1rem;
+    }
+}
+  
+@media (min-width: 1200px) {
+    html {
+      font-size: 1.2rem;
+    }
 }
