@@ -26,12 +26,12 @@ body {
 }
 
 .menu ul li a {
-    color: aliceblue;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .menu ul li a:hover {
-    color: red;
+    color: #F90101;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .small {
-    color: aliceblue;
+    color: whitesmoke;
     display: grid;
 }
 
@@ -79,12 +79,20 @@ ul li {
 
 .menu-footer ul li a:hover {
     text-decoration: none;
-    color: red;
+    color: #F90101;
 }
 
 .menu-footer ul li a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
+}
+
+.card-body img {
+    transition: transform .6s;
+}
+
+.card-body img:hover {
+    transform: scale(1.1);
 }
 
 h2,
