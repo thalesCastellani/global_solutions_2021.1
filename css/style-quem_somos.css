@@ -8,21 +8,26 @@ body {
     font-size: 0.6rem;
 }
 
-.menu {
-    height: 100%;
+h2,
+p {
+    text-align: center;
 }
 
-.menu:hover {
-    background-color: #4A4A4A;
-    opacity: 0.55;
-    transition: 0.5s;
+h2 {
+    padding-bottom: 5%;
+}
+
+.menu {
+    height: 100%;
+    background-color: #0B0B0B;
 }
 
 .menu ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
 }
 
 .menu ul li a {
@@ -42,30 +47,18 @@ body {
     position: absolute;
 }
 
-.rodape {
-    background-color: #0B0B0B;
-}
-
-.cabecalho-wrapper {
-    padding-bottom: 5%;
+.row {
+    align-items: center;
 }
 
 .card {
-    padding: 2.5% 0;
-    margin-bottom: 5%;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 
-.rodape .rodape-wrapper {
-    padding: 2% 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#logo img {
-    position: absolute;
-    height: 5em;
-    width: auto;
+h4,
+p {
+    text-align: center;
 }
 
 .img-rodape img {
@@ -83,6 +76,17 @@ ul li {
     list-style-type: none;
 }
 
+.rodape {
+    background-color: #0B0B0B;
+}
+
+.rodape .rodape-wrapper {
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .menu-footer ul li a:hover {
     text-decoration: none;
     color: #F90101;
@@ -91,19 +95,6 @@ ul li {
 .menu-footer ul li a {
     text-decoration: none;
     color: whitesmoke;
-}
-
-.card-body img {
-    transition: transform .6s;
-}
-
-.card-body img:hover {
-    transform: scale(1.1);
-}
-
-h2,
-p {
-    text-align: center;
 }
 
 @media (min-width: 798px) {
