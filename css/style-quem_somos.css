@@ -14,7 +14,7 @@ p {
 }
 
 h2 {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .menu {
@@ -27,7 +27,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .menu ul li a {
