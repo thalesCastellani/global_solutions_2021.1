@@ -41,6 +41,10 @@ body {
     position: relative;
 }
 
+img:hover {
+    cursor: pointer; 
+}
+
 @media (min-width: 798px){
     html {
         font-size: 1.2rem;
