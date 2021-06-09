@@ -1,0 +1,16 @@
+.black-bg {
+  background-color: black;
+  transition: none;
+}
+
+.black-bg:hover {
+  transition: none;
+}
+
+.text-center {
+  padding-bottom: 2.5%;
+}
+
+.container {
+  margin-top: 30px;
+}
