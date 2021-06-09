@@ -13,16 +13,14 @@ body {
 }
 
 .menu:hover {
-    background-color: #0B0B0B;
-    opacity: 0.9;
+    background-color: #4A4A4A;
+    opacity: 0.55;
     transition: 0.5s;
 }
 
 .menu ul {
     display: flex;
-    align-items: center;
     flex-direction: row;
-    list-style-type: none;
     justify-content: space-evenly;
     margin-bottom: 0%;
 }
@@ -39,7 +37,7 @@ body {
 
 #menu-wrapper {
     font-weight: bold;
-    height: 5%;
+    height: 6%;
     width: 100%;
     position: absolute;
 }
@@ -53,7 +51,8 @@ body {
 }
 
 .card {
-    padding: 5% 0;
+    padding: 2.5% 0;
+    margin-bottom: 5%;
 }
 
 .rodape .rodape-wrapper {
@@ -71,6 +70,21 @@ body {
 .small {
     color: aliceblue;
     display: grid;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.menu-footer ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.menu-footer ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 h2,
