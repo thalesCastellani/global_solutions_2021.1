@@ -25,3 +25,12 @@
 .card-img-top:hover {
   transform: scale(1.1);
 }
+
+.card-title{
+  color: #F90101;
+}
+
+.modal-body {
+  text-align: center;
+  font-size: 0.7rem;
+}
