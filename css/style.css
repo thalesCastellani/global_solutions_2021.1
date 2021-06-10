@@ -14,8 +14,8 @@ body {
 }
 
 .menu:hover {
-    background-color: #0B0B0B;
-    opacity: 0.9;
+    background-color: #4A4A4A;
+    opacity: 0.55;
     transition: 0.5s;
 }
 
@@ -26,17 +26,23 @@ body {
 .menu ul {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 0%;
 }
 
 .menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #F90101;
     text-decoration: none;
 }
 
 #menu-wrapper {
     height: 100%;
+    font-weight: bold;
     width: 100%;
     position: relative;
 }
@@ -45,18 +51,76 @@ img:hover {
     cursor: pointer; 
 }
 
-@media (min-width: 798px){
+.rodape {
+    background-color: #0B0B0B;
+}
+
+.cabecalho-wrapper {
+    padding-bottom: 5%;
+}
+
+.card {
+    padding: 2.5% 0;
+    margin-bottom: 5%;
+}
+
+.rodape .rodape-wrapper {
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-rodape img {
+    height: 5em;
+    width: auto;
+}
+
+.small {
+    color: whitesmoke;
+    display: grid;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.menu-footer ul li a:hover {
+    text-decoration: none;
+    color: #F90101;
+}
+
+.menu-footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card-body img {
+    transition: transform .6s;
+}
+
+.card-body img:hover {
+    transform: scale(1.1);
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+@media (min-width: 798px) {
     html {
         font-size: 1.2rem;
     }
 }
-  
+
 @media (min-width: 992px) {
     html {
       font-size: 1.4rem;
     }
 }
-  
+
 @media (min-width: 1200px) {
     html {
       font-size: 1.6rem;
