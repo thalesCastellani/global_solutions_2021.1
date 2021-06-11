@@ -1,16 +1,3 @@
-/* .black-bg {
-  background-color: black;
-  transition: none;
-}
-
-.black-bg:hover {
-  transition: none;
-} */
-
-.container {
-  margin-top: 30px;
-}
-
 .card-img-top {
   width: 100%;
   height: 15vw;
