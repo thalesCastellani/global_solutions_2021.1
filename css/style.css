@@ -8,13 +8,13 @@ body {
     font-size: 1rem;
 }
 
-.menu {
+#menu-index {
+    background-color: #0B0B0B;
     height: 100%;
     transition: 0.5s;
 }
 
-.menu:hover {
-    background-color: #4A4A4A;
+#menu-index:hover {
     opacity: 0.55;
     transition: 0.5s;
 }
@@ -23,11 +23,17 @@ body {
     height: 20%;
 }
 
+.menu {
+    height: 100%;
+    background-color: #0B0B0B;
+}
+
 .menu ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
 }
 
 .menu ul li a {
@@ -119,18 +125,18 @@ p {
 
 @media (min-width: 798px) {
     html {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 }
 
 @media (min-width: 992px) {
     html {
-      font-size: 1.4rem;
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 1200px) {
     html {
-      font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 }
