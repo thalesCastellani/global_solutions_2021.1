@@ -2,6 +2,8 @@
 
 Resolução do Global Solutions 2021.1 - Página Web: Case Traveller - Projeto OndeVou
 
-Criação de página WEB navegável utilizando HTML 5, CSS 3, Javascript, Bootstrap
+Matéria: Responsive Web Development - 1º semestre FIAP - Professor Alexandre Carlos de Jesus
 
-Link do site: https://thalescastellani.github.io/global_solutions_2021.1/index.html
+Criação de página WEB navegável utilizando HTML 5, CSS 3, Javascript e Bootstrap
+
+Link oficial do site: https://thalescastellani.github.io/global_solutions_2021.1/index.html
