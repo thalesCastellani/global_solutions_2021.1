@@ -5,24 +5,27 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.6rem;
+    font-size: 1rem;
+}
+
+.cabecalho {
+    height: 20%;
 }
 
 .menu {
     height: 100%;
-}
-
-.menu:hover {
-    background-color: #4A4A4A;
-    opacity: 0.55;
-    transition: 0.5s;
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 0%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
 }
 
 .menu ul li a {
@@ -36,18 +39,22 @@ body {
 }
 
 #menu-wrapper {
+    height: 100%;
     font-weight: bold;
-    height: 6%;
     width: 100%;
-    position: absolute;
+    position: relative;
+}
+
+img:hover {
+    cursor: pointer; 
 }
 
 .rodape {
     background-color: #0B0B0B;
 }
 
-.cabecalho-wrapper {
-    padding-bottom: 5%;
+.container {
+    margin-top: 30px;
 }
 
 .card {
@@ -101,6 +108,13 @@ ul li {
 .card-body img:hover {
     transform: scale(1.1);
 }
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    transition: all .5s;
+  }
 
 h2,
 p {
